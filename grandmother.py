@@ -18,7 +18,7 @@ def main():
     # process & output
     try:
         user_age = int(user_age_as_string)
-        if user_age >= constants.MINIMUM_AGE and user_age <= 40:
+        if user_age >= constants.MINIMUM_AGE and user_age <= constants.MAXIMUM_AGE:
             print("You are an acceptable age!")
         else:
             print("You are NOT an acceptable age")
